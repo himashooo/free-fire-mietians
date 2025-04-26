@@ -1,0 +1,95 @@
+body {
+  background-image: url('/assets/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+  color: white; /* Makes text visible on dark background */
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Added text alignment here */
+}
+
+.container {
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 50px auto;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #ffc107;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+h1 {
+  color: #ffc107;
+}
+
+.tagline {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+#countdown {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 15px 0;
+  color: #fff;
+}
+
+form input,
+form button {
+  margin: 10px;
+  padding: 10px;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+form button {
+  background-color: #ffc107;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #ff9800;
+}
+
+.note {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.social-icons a {
+  color: #ffc107;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social-icons a:hover {
+  color: #ffffff;
+}
+
+.social-icons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.social-icons a img {
+  width: 40px;
+  margin: 0 10px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.social-icons a img:hover {
+  transform: scale(1.2);
+  filter: brightness(1.3);
+}
